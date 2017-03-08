@@ -1,0 +1,46 @@
+/*
+ By Abi Salazar, www.abisalazar.co.uk
+ Available for use under the MIT License
+ */
+.imageSlider__parentContainer {
+  overflow: hidden;
+  display: -webkit-box;
+  display: flex;
+  position: relative;
+}
+
+.imageSlider__btnContainer {
+  display: -webkit-box;
+  display: flex;
+  position: absolute;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  align-self: center;
+}
+
+.imageSlider__btn {
+  padding: 10px;
+  font-size: 75px;
+  color: white;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+.imageSlider__image {
+  -webkit-transition-duration: 2s;
+  -webkit-transform: translateX(0px);
+  transform: translateX(0px);
+}
+
+.imageSlider__nextBtn {
+  text-align: right;
+}
+
+.imageSlider__previousBtn {
+  text-align: left;
+}
+
+/*# sourceMappingURL=PictureSlider.css.map */

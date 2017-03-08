@@ -1,0 +1,28 @@
+/*
+ By Abi Salazar, www.abisalazar.co.uk
+ Available for use under the MIT License
+ */
+ 
+.imageSlider__parentContainer{
+  overflow: hidden;
+  display: flex;
+  position: relative;
+}
+.imageSlider__btn{
+    padding: 10px;
+    font-size: 75px;
+    color: black;
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.imageSlider__image {
+  -webkit-transition-duration:2s;
+  transform:translateX(0px);
+}
+.imageSlider__nextBtn{
+      right: 0px;
+}
+.imageSlider__previousBtn{
+      left: 0px;
+}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["jquery-touchswipe.js"],"names":[],"mappings":"AAAA","file":"jquery-touchswipe.js","sourcesContent":["import * as swipe from \"node_modules/touchswipe/index.js\";"]}
